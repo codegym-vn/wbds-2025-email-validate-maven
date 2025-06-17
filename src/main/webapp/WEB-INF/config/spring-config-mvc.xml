@@ -14,7 +14,7 @@
     <context:annotation-config/>
     <mvc:annotation-driven/>
 
-    <context:component-scan base-package="com.codegym.emailvalidatemaven"/>
+    <context:component-scan base-package="com.codegym"/>
 
     <bean id="viewResolver"
           class="org.springframework.web.servlet.view.InternalResourceViewResolver">
